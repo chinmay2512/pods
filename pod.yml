@@ -2,11 +2,13 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: kunal-app
-  labels: new-app
+  labels: 
+  app: new-app
 spec:
-  container:
+  containers:
   - name: nginx
     image: nginx:latest
     ports: 
     - containerPort: 80
+    protocol: TCP
     
