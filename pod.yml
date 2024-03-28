@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: kunal-app
+  name: chinmay-app
   labels: 
     app: new-app
 spec:
