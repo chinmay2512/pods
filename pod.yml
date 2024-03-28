@@ -7,6 +7,6 @@ spec:
   container:
   - name: nginx
     image: nginx:latest
-    ports: 80
+    ports: 
     - containerPort: 80
-    protocol: TCP
+    
