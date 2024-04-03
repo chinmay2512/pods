@@ -6,9 +6,9 @@ metadata:
     app: reps
 spec:
     selector: 
-      matchExpressions:      
-         -  { key: app, operator: Exists , values: [reps]}
-    replicas: 3
+    matchLabels: 
+          app: reps
+    replicas: 4
     template:
       metadata:
         labels:
