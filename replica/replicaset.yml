@@ -6,8 +6,8 @@ metadata:
     app: reps
 spec:
     selector: 
-    matchLabels: 
-          app: reps
+    matchExpressions:
+      - {key: app, operator: In, values: [reps]}
     replicas: 4
     template:
       metadata:
