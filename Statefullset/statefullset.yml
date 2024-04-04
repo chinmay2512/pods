@@ -23,4 +23,4 @@ spec:
                   protocol: TCP
             env:
                  - name: MYSQL_ROOT_PASSWORD
-                   value: "1234"      
+                   value: "1234"
